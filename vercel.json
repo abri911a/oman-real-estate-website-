@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "redirects": [
+    {
+      "source": "/property/:id",
+      "destination": "/properties/:id",
+      "permanent": true
+    }
+  ]
+}

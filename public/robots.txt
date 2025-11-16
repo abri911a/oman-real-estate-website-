@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Allow all crawlers to access property pages
+Allow: /properties/
+Allow: /properties/*
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Common crawl delays
+Crawl-delay: 1
