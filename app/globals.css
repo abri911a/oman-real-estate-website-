@@ -2,20 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --primary: 221.2 83.2% 53.3%;
-    --primary-foreground: 210 40% 98%;
-  }
+/* Custom styles for the real estate website */
+body {
+  font-family: 'Inter', sans-serif;
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
+/* Leaflet map styles */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
 }
